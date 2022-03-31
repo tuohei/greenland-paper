@@ -1,0 +1,115 @@
+Starting job 508273 on c8-1 at Thu Apr 16 09:01:16 CEST 2020
+
+  1) StdEnv
+
+The following have been reloaded with a version change:
+  1) GCCcore/6.4.0 => GCCcore/8.3.0
+
+
+Currently Loaded Modules:
+  1) StdEnv                                      (S)
+  2) binutils/2.28-GCCcore-6.4.0                 (H)
+  3) GCC/6.4.0-2.28
+  4) hpcx/2.2
+  5) OpenMPI/2.1.2-GCC-6.4.0-2.28
+  6) OpenBLAS/0.2.20-GCC-6.4.0-2.28
+  7) gompi/2018a
+  8) FFTW/3.3.7-gompi-2018a
+  9) ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20
+ 10) foss/2018a
+ 11) GCCcore/8.3.0
+ 12) bzip2/1.0.8-GCCcore-8.3.0                   (H)
+ 13) zlib/1.2.11-GCCcore-8.3.0                   (H)
+ 14) ncurses/6.1-GCCcore-8.3.0                   (H)
+ 15) libreadline/8.0-GCCcore-8.3.0               (H)
+ 16) XZ/5.2.4-GCCcore-8.3.0                      (H)
+ 17) GMP/6.1.2-GCCcore-8.3.0                     (H)
+ 18) libffi/3.2.1-GCCcore-8.3.0                  (H)
+ 19) Python/3.7.4-GCCcore-8.3.0
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+[c8-1.cluster:75312:4][bcol_ucx_p2p_component.c:712:ucx_p2p_init] UCXP2P UCP worker does not support MPI_THREAD_MULTIPLE
+[c8-1.cluster:75312:4][bcol_ucx_p2p_component.c:481:hmca_bcol_ucx_p2p_init_query] UCXP2P failed to init ucx
+[c8-1.cluster:75312] Error: coll_hcoll_module.c:307 - mca_coll_hcoll_comm_query() Hcol library init failed
+[c8-1.cluster:75313:5][bcol_ucx_p2p_component.c:712:ucx_p2p_init] UCXP2P UCP worker does not support MPI_THREAD_MULTIPLE
+[c8-1.cluster:75313:5][bcol_ucx_p2p_component.c:481:hmca_bcol_ucx_p2p_init_query] UCXP2P failed to init ucx
+[c8-1.cluster:75313] Error: coll_hcoll_module.c:307 - mca_coll_hcoll_comm_query() Hcol library init failed
+[c8-1.cluster:75309:1][bcol_ucx_p2p_component.c:712:ucx_p2p_init] UCXP2P UCP worker does not support MPI_THREAD_MULTIPLE
+[c8-1.cluster:75309:1][bcol_ucx_p2p_component.c:481:hmca_bcol_ucx_p2p_init_query] UCXP2P failed to init ucx
+[c8-1.cluster:75309] Error: coll_hcoll_module.c:307 - mca_coll_hcoll_comm_query() Hcol library init failed
+[c8-1.cluster:75311:3][bcol_ucx_p2p_component.c:712:ucx_p2p_init] UCXP2P UCP worker does not support MPI_THREAD_MULTIPLE
+[c8-1.cluster:75311:3][bcol_ucx_p2p_component.c:481:hmca_bcol_ucx_p2p_init_query] UCXP2P failed to init ucx
+[c8-1.cluster:75311] Error: coll_hcoll_module.c:307 - mca_coll_hcoll_comm_query() Hcol library init failed
+[c8-1.cluster:75310:2][bcol_ucx_p2p_component.c:712:ucx_p2p_init] UCXP2P UCP worker does not support MPI_THREAD_MULTIPLE
+[c8-1.cluster:75310:2][bcol_ucx_p2p_component.c:481:hmca_bcol_ucx_p2p_init_query] UCXP2P failed to init ucx
+[c8-1.cluster:75310] Error: coll_hcoll_module.c:307 - mca_coll_hcoll_comm_query() Hcol library init failed
+[c8-1.cluster:75308:0][bcol_ucx_p2p_component.c:712:ucx_p2p_init] UCXP2P UCP worker does not support MPI_THREAD_MULTIPLE
+[c8-1.cluster:75308:0][bcol_ucx_p2p_component.c:481:hmca_bcol_ucx_p2p_init_query] UCXP2P failed to init ucx
+[c8-1.cluster:75308] Error: coll_hcoll_module.c:307 - mca_coll_hcoll_comm_query() Hcol library init failed
+1982 complete
+2000 complete
+2006 complete
+1994 complete
+2012 complete
+1988 complete
+2007 complete
+2001 complete
+1983 complete
+1995 complete
+2013 complete
+1989 complete
+1996 complete
+2002 complete
+2008 complete
+1984 complete
+2014 complete
+1990 complete
+1997 complete
+2009 complete
+2003 complete
+1985 complete
+2015 complete
+1998 complete
+1991 complete
+2010 complete
+2004 complete
+1986 complete
+1999 complete
+2016 complete
+1992 complete
+2011 complete
+2005 complete
+1987 complete
+2017 complete
+1993 complete
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+508273       DIV_regrid          6                                           1-12:55:55      0:0 
+508273.batch      batch          6        1   00:00:00          0   00:00:00 1-12:55:55      0:0 
+508273.exte+     extern          6        1   00:00:00          0   00:00:00 1-12:55:57      0:0 
+508273.0         python          6        6 1-07:19:34          2 1-10:55:23 1-12:55:52      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+508273                                                                           
+508273.batch      5574K          0      5574K        0              0          0 
+508273.exte+       118K          0       118K        0              0          0 
+508273.0      18209877K          2 180892335+     1668              4       1406 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+508273                                                                                                
+508273.batch        8.61M               0          8.61M        0.49M                0          0.49M 
+508273.exte+        0.00M               0          0.00M            0                0              0 
+508273.0        34569.36M               5      34569.00M   810520.23M                0     810520.23M 
+
+Job 508273 completed at Fri Apr 17 21:57:13 CEST 2020

@@ -1,0 +1,162 @@
+Starting job 4215395 on c8-1 at Wed Mar 16 13:14:20 CET 2022
+
+  1) StdEnv
+
+The following have been reloaded with a version change:
+  1) GCCcore/6.4.0 => GCCcore/8.3.0
+
+
+The following have been reloaded with a version change:
+  1) GCCcore/8.3.0 => GCCcore/6.4.0
+  2) zlib/1.2.11-GCCcore-8.3.0 => zlib/1.2.11-GCCcore-6.4.0
+
+
+Currently Loaded Modules:
+  1) StdEnv                                             (S)
+  2) binutils/2.28-GCCcore-6.4.0                        (H)
+  3) GCC/6.4.0-2.28
+  4) hpcx/2.9
+  5) OpenMPI/2.1.2-GCC-6.4.0-2.28
+  6) OpenBLAS/0.2.20-GCC-6.4.0-2.28
+  7) gompi/2018a
+  8) FFTW/3.3.7-gompi-2018a
+  9) ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20
+ 10) foss/2018a
+ 11) bzip2/1.0.8-GCCcore-8.3.0                          (H)
+ 12) ncurses/6.1-GCCcore-8.3.0                          (H)
+ 13) libreadline/8.0-GCCcore-8.3.0                      (H)
+ 14) XZ/5.2.4-GCCcore-8.3.0                             (H)
+ 15) GMP/6.1.2-GCCcore-8.3.0                            (H)
+ 16) libffi/3.2.1-GCCcore-8.3.0                         (H)
+ 17) Python/3.7.4-GCCcore-8.3.0
+ 18) icc/2018.1.163-GCC-6.4.0-2.28
+ 19) ifort/2018.1.163-GCC-6.4.0-2.28
+ 20) iccifort/2018.1.163-GCC-6.4.0-2.28
+ 21) impi/2018.1.163-iccifort-2018.1.163-GCC-6.4.0-2.28
+ 22) iimpi/2018a
+ 23) imkl/2018.1.163-iimpi-2018a
+ 24) intel/2018a
+ 25) GCCcore/6.4.0
+ 26) zlib/1.2.11-GCCcore-6.4.0                          (H)
+ 27) Szip/2.1.1-GCCcore-6.4.0                           (H)
+ 28) HDF5/1.8.19-intel-2018a
+ 29) cURL/7.56.0-GCCcore-6.4.0                          (H)
+ 30) netCDF/4.4.1.1-intel-2018a-HDF5-1.8.19
+ 31) YAXT/0.5.1-intel-2018a                             (H)
+ 32) JasPer/1.900.1-GCCcore-6.4.0                       (H)
+ 33) grib_api/1.25.0-intel-2018a
+ 34) CDO/1.9.3-intel-2018a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+2012 01 complete.
+2012 02 complete.
+2012 03 complete.
+2012 04 complete.
+2012 05 complete.
+2012 06 complete.
+2012 07 complete.
+2012 08 complete.
+2012 09 complete.
+2012 10 complete.
+2012 11 complete.
+2012 12 complete.
+2013 01 complete.
+2013 02 complete.
+2013 03 complete.
+2013 04 complete.
+2013 05 complete.
+2013 06 complete.
+2013 07 complete.
+2013 08 complete.
+2013 09 complete.
+2013 10 complete.
+2013 11 complete.
+2013 12 complete.
+2014 01 complete.
+2014 02 complete.
+2014 03 complete.
+2014 04 complete.
+2014 05 complete.
+2014 06 complete.
+2014 07 complete.
+2014 08 complete.
+2014 09 complete.
+2014 10 complete.
+2014 11 complete.
+2014 12 complete.
+2015 01 complete.
+2015 02 complete.
+2015 03 complete.
+2015 04 complete.
+2015 05 complete.
+2015 06 complete.
+2015 07 complete.
+2015 08 complete.
+2015 09 complete.
+2015 10 complete.
+2015 11 complete.
+2015 12 complete.
+2016 01 complete.
+2016 02 complete.
+2016 03 complete.
+2016 04 complete.
+2016 05 complete.
+2016 06 complete.
+2016 07 complete.
+2016 08 complete.
+2016 09 complete.
+2016 10 complete.
+2016 11 complete.
+2016 12 complete.
+2017 01 complete.
+2017 02 complete.
+2017 03 complete.
+2017 04 complete.
+2017 05 complete.
+2017 06 complete.
+2017 07 complete.
+2017 08 complete.
+2017 09 complete.
+2017 10 complete.
+2017 11 complete.
+2017 12 complete.
+2018 01 complete.
+2018 02 complete.
+2018 03 complete.
+2018 04 complete.
+2018 05 complete.
+2018 06 complete.
+2018 07 complete.
+2018 08 complete.
+2018 09 complete.
+2018 10 complete.
+2018 11 complete.
+2018 12 complete.
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+4215395      DIV_Q_com+          4                                             00:25:46      0:0 
+4215395.bat+      batch          4        1   00:23:18          0   00:23:18   00:25:46      0:0 
+4215395.ext+     extern          4        1   00:00:00          0   00:00:00   00:25:46      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+4215395                                                                          
+4215395.bat+  13651210K          0  13651210K        1              0          1 
+4215395.ext+       124K          0       124K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+4215395                                                                                               
+4215395.bat+   161391.75M               0     161391.75M    39798.78M                0      39798.78M 
+4215395.ext+        0.00M               0          0.00M            0                0              0 
+
+Job 4215395 completed at Wed Mar 16 13:40:07 CET 2022

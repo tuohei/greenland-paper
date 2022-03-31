@@ -1,0 +1,354 @@
+Starting job 4215399 on c8-1 at Wed Mar 16 13:15:20 CET 2022
+
+  1) StdEnv
+
+The following have been reloaded with a version change:
+  1) GCCcore/6.4.0 => GCCcore/8.3.0
+
+
+The following have been reloaded with a version change:
+  1) GCCcore/8.3.0 => GCCcore/6.4.0
+  2) zlib/1.2.11-GCCcore-8.3.0 => zlib/1.2.11-GCCcore-6.4.0
+
+
+Currently Loaded Modules:
+  1) StdEnv                                             (S)
+  2) binutils/2.28-GCCcore-6.4.0                        (H)
+  3) GCC/6.4.0-2.28
+  4) hpcx/2.9
+  5) OpenMPI/2.1.2-GCC-6.4.0-2.28
+  6) OpenBLAS/0.2.20-GCC-6.4.0-2.28
+  7) gompi/2018a
+  8) FFTW/3.3.7-gompi-2018a
+  9) ScaLAPACK/2.0.2-gompi-2018a-OpenBLAS-0.2.20
+ 10) foss/2018a
+ 11) bzip2/1.0.8-GCCcore-8.3.0                          (H)
+ 12) ncurses/6.1-GCCcore-8.3.0                          (H)
+ 13) libreadline/8.0-GCCcore-8.3.0                      (H)
+ 14) XZ/5.2.4-GCCcore-8.3.0                             (H)
+ 15) GMP/6.1.2-GCCcore-8.3.0                            (H)
+ 16) libffi/3.2.1-GCCcore-8.3.0                         (H)
+ 17) Python/3.7.4-GCCcore-8.3.0
+ 18) icc/2018.1.163-GCC-6.4.0-2.28
+ 19) ifort/2018.1.163-GCC-6.4.0-2.28
+ 20) iccifort/2018.1.163-GCC-6.4.0-2.28
+ 21) impi/2018.1.163-iccifort-2018.1.163-GCC-6.4.0-2.28
+ 22) iimpi/2018a
+ 23) imkl/2018.1.163-iimpi-2018a
+ 24) intel/2018a
+ 25) GCCcore/6.4.0
+ 26) zlib/1.2.11-GCCcore-6.4.0                          (H)
+ 27) Szip/2.1.1-GCCcore-6.4.0                           (H)
+ 28) HDF5/1.8.19-intel-2018a
+ 29) cURL/7.56.0-GCCcore-6.4.0                          (H)
+ 30) netCDF/4.4.1.1-intel-2018a-HDF5-1.8.19
+ 31) YAXT/0.5.1-intel-2018a                             (H)
+ 32) JasPer/1.900.1-GCCcore-6.4.0                       (H)
+ 33) grib_api/1.25.0-intel-2018a
+ 34) CDO/1.9.3-intel-2018a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+1995 01 complete.
+1995 02 complete.
+1995 03 complete.
+1995 04 complete.
+1995 05 complete.
+1995 06 complete.
+1995 07 complete.
+1995 08 complete.
+1995 09 complete.
+1995 10 complete.
+1995 11 complete.
+1995 12 complete.
+1996 01 complete.
+1996 02 complete.
+1996 03 complete.
+1996 04 complete.
+1996 05 complete.
+1996 06 complete.
+1996 07 complete.
+1996 08 complete.
+1996 09 complete.
+1996 10 complete.
+1996 11 complete.
+1996 12 complete.
+1997 01 complete.
+1997 02 complete.
+1997 03 complete.
+1997 04 complete.
+1997 05 complete.
+1997 06 complete.
+1997 07 complete.
+1997 08 complete.
+1997 09 complete.
+1997 10 complete.
+1997 11 complete.
+1997 12 complete.
+1998 01 complete.
+1998 02 complete.
+1998 03 complete.
+1998 04 complete.
+1998 05 complete.
+1998 06 complete.
+1998 07 complete.
+1998 08 complete.
+1998 09 complete.
+1998 10 complete.
+1998 11 complete.
+1998 12 complete.
+1999 01 complete.
+1999 02 complete.
+1999 03 complete.
+1999 04 complete.
+1999 05 complete.
+1999 06 complete.
+1999 07 complete.
+1999 08 complete.
+1999 09 complete.
+1999 10 complete.
+1999 11 complete.
+1999 12 complete.
+2000 01 complete.
+2000 02 complete.
+2000 03 complete.
+2000 04 complete.
+2000 05 complete.
+2000 06 complete.
+2000 07 complete.
+2000 08 complete.
+2000 09 complete.
+2000 10 complete.
+2000 11 complete.
+2000 12 complete.
+2001 01 complete.
+2001 02 complete.
+2001 03 complete.
+2001 04 complete.
+2001 05 complete.
+2001 06 complete.
+2001 07 complete.
+2001 08 complete.
+2001 09 complete.
+2001 10 complete.
+2001 11 complete.
+2001 12 complete.
+2002 01 complete.
+2002 02 complete.
+2002 03 complete.
+2002 04 complete.
+2002 05 complete.
+2002 06 complete.
+2002 07 complete.
+2002 08 complete.
+2002 09 complete.
+2002 10 complete.
+2002 11 complete.
+2002 12 complete.
+2003 01 complete.
+2003 02 complete.
+2003 03 complete.
+2003 04 complete.
+2003 05 complete.
+2003 06 complete.
+2003 07 complete.
+2003 08 complete.
+2003 09 complete.
+2003 10 complete.
+2003 11 complete.
+2003 12 complete.
+2004 01 complete.
+2004 02 complete.
+2004 03 complete.
+2004 04 complete.
+2004 05 complete.
+2004 06 complete.
+2004 07 complete.
+2004 08 complete.
+2004 09 complete.
+2004 10 complete.
+2004 11 complete.
+2004 12 complete.
+2005 01 complete.
+2005 02 complete.
+2005 03 complete.
+2005 04 complete.
+2005 05 complete.
+2005 06 complete.
+2005 07 complete.
+2005 08 complete.
+2005 09 complete.
+2005 10 complete.
+2005 11 complete.
+2005 12 complete.
+2006 01 complete.
+2006 02 complete.
+2006 03 complete.
+2006 04 complete.
+2006 05 complete.
+2006 06 complete.
+2006 07 complete.
+2006 08 complete.
+2006 09 complete.
+2006 10 complete.
+2006 11 complete.
+2006 12 complete.
+2007 01 complete.
+2007 02 complete.
+2007 03 complete.
+2007 04 complete.
+2007 05 complete.
+2007 06 complete.
+2007 07 complete.
+2007 08 complete.
+2007 09 complete.
+2007 10 complete.
+2007 11 complete.
+2007 12 complete.
+2008 01 complete.
+2008 02 complete.
+2008 03 complete.
+2008 04 complete.
+2008 05 complete.
+2008 06 complete.
+2008 07 complete.
+2008 08 complete.
+2008 09 complete.
+2008 10 complete.
+2008 11 complete.
+2008 12 complete.
+2009 01 complete.
+2009 02 complete.
+2009 03 complete.
+2009 04 complete.
+2009 05 complete.
+2009 06 complete.
+2009 07 complete.
+2009 08 complete.
+2009 09 complete.
+2009 10 complete.
+2009 11 complete.
+2009 12 complete.
+2010 01 complete.
+2010 02 complete.
+2010 03 complete.
+2010 04 complete.
+2010 05 complete.
+2010 06 complete.
+2010 07 complete.
+2010 08 complete.
+2010 09 complete.
+2010 10 complete.
+2010 11 complete.
+2010 12 complete.
+2011 01 complete.
+2011 02 complete.
+2011 03 complete.
+2011 04 complete.
+2011 05 complete.
+2011 06 complete.
+2011 07 complete.
+2011 08 complete.
+2011 09 complete.
+2011 10 complete.
+2011 11 complete.
+2011 12 complete.
+2012 01 complete.
+2012 02 complete.
+2012 03 complete.
+2012 04 complete.
+2012 05 complete.
+2012 06 complete.
+2012 07 complete.
+2012 08 complete.
+2012 09 complete.
+2012 10 complete.
+2012 11 complete.
+2012 12 complete.
+2013 01 complete.
+2013 02 complete.
+2013 03 complete.
+2013 04 complete.
+2013 05 complete.
+2013 06 complete.
+2013 07 complete.
+2013 08 complete.
+2013 09 complete.
+2013 10 complete.
+2013 11 complete.
+2013 12 complete.
+2014 01 complete.
+2014 02 complete.
+2014 03 complete.
+2014 04 complete.
+2014 05 complete.
+2014 06 complete.
+2014 07 complete.
+2014 08 complete.
+2014 09 complete.
+2014 10 complete.
+2014 11 complete.
+2014 12 complete.
+2015 01 complete.
+2015 02 complete.
+2015 03 complete.
+2015 04 complete.
+2015 05 complete.
+2015 06 complete.
+2015 07 complete.
+2015 08 complete.
+2015 09 complete.
+2015 10 complete.
+2015 11 complete.
+2015 12 complete.
+2016 01 complete.
+2016 02 complete.
+2016 03 complete.
+2016 04 complete.
+2016 05 complete.
+2016 06 complete.
+2016 07 complete.
+2016 08 complete.
+2016 09 complete.
+2016 10 complete.
+2016 11 complete.
+2016 12 complete.
+2017 01 complete.
+2017 02 complete.
+2017 03 complete.
+2017 04 complete.
+2017 05 complete.
+2017 06 complete.
+2017 07 complete.
+2017 08 complete.
+2017 09 complete.
+2017 10 complete.
+2017 11 complete.
+2017 12 complete.
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+4215399      DIV_compu+          4                                             01:21:34      0:0 
+4215399.bat+      batch          4        1   01:15:27          0   01:15:27   01:21:34      0:0 
+4215399.ext+     extern          4        1   00:00:00          0   00:00:00   01:21:36      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+4215399                                                                          
+4215399.bat+  14465060K          0  14465060K        0              0          0 
+4215399.ext+       124K          0       124K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+4215399                                                                                               
+4215399.bat+   532243.79M               0     532243.79M   131872.83M                0     131872.83M 
+4215399.ext+        0.00M               0          0.00M            0                0              0 
+
+Job 4215399 completed at Wed Mar 16 14:36:56 CET 2022
